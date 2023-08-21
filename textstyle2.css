@@ -1,0 +1,266 @@
+/*BACKGROUNDS*/
+body{background-color: #f9f9f9;}
+
+.bg2{background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: -10px;
+    box-shadow: 0px 5px 10px inset;
+    background-size: cover;}
+
+.bg3{background-color: #b2dceb;
+    margin: -10px;}
+
+.bg4{background-color: #02101e;
+    margin: -10px;
+    padding: 20px;}
+
+.bg5{background-color: #376683;
+    margin: -10px;}
+
+.bg6{background-color: #38ABC8;
+    margin: -10px;}
+
+
+/*BACKGROUNDS*/
+
+
+/*MENU*/
+.menu {list-style-type: none;
+    background-color: #376683;
+    overflow: hidden;
+    position: fixed;
+    top: 20px;
+    width: 100%;
+    margin: -10px;}
+
+.menu li {float: left;
+    font-size: 25px;}
+
+.menu li a{display:block;
+    padding: 25px;
+    text-decoration: none;}
+
+.menu-btn{color: #02101e;}
+
+.menu-btn:hover:not(.active) {color: #376683;
+    background-color: #02101e;}
+
+.active{color: #38ABC8;
+    background-color: #376683;}
+/*MENU*/
+
+
+/*FOR ALL PAGES*/
+button:focus{outline: 0;}
+
+h1{text-align: center;
+    color: #38ABC8;
+    font-size: 60px;}
+
+.bg2-text{color: #f9f9f9;
+    font-weight: bold;
+    border: 3px solid #f9f9f9;
+    width: 600px;
+    margin-left: auto;
+    margin-right: 30px;
+    padding: 30px;
+    text-align: center;}
+
+.normal-hr{border:2px solid #b2dceb;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;}
+
+.center{display: flex;
+    justify-content: center;}
+
+.space-around2{display: flex;
+    justify-content: space-around;}
+
+.space{display: flex;
+    justify-content: space-evenly;}
+
+.icons{display: flex;
+    justify-content: space-around;
+    font-size: 50px;}
+
+.text{margin-left: auto;
+    margin-right: auto;
+    width: 85%;}
+/*FOR ALL PAGES*/
+
+
+
+
+/*FACTS PAGE*/
+.space-around{display: flex;
+    justify-content: space-around;}
+
+.space-around div{width: 270px;
+    height: 400px;
+    padding: 15px;
+    color: #011b39;}
+
+.vertical-hr{height: 300px;
+    width: 5px;
+    background-color: #376683;
+    border-radius: 4px;}
+/*FACTS PAGE*/
+
+
+/* SEA CREATURES PAGE */
+.small-hr{border:1px solid #376683;
+    margin-top: -20px;
+    margin-left: 40px;
+    width: 60px;}
+
+.heading{margin-left: 40px;
+    margin-top: 70px;
+    font-size: 36px;}
+
+.back:visited{color: inherit;}
+
+.back:hover{color: #38ABC8;}
+
+#contents{background-image:url("photos/animalsbkg.jpg");
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px #02101e;
+    font-family: "Lucida Console", Courier, monospace;
+    margin-left: 50px;
+    width: 50%;
+    height: 550px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 100px;}
+
+.animals{background-color: #02101e;
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 3px;}
+
+.animals:link{color: #f9f9f9;
+    text-decoration: none;}
+
+.animals:visited{color: #f9f9f9}
+
+.animals:hover{color: #376683}
+
+.animals:active{color: #376683;
+    text-decoration: underline;}
+
+#sharks{color: #f9f9f9;}
+
+#turtles{color: #011b39;}
+
+#rays{color: #f9f9f9;}
+
+#dolphins{color: #011b39;}
+
+#manatee{color: #f9f9f9;}
+
+#whales{color: #011b39;}
+
+#seals{color: #f9f9f9;}
+
+#sealions{color: #011b39;}
+
+#fish{color: #f9f9f9;}
+
+#seabirds{color: #011b39;}
+/* SEA CREATURES PAGE */
+
+
+/*CORALS*/
+blockquote{margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 20px;
+    width: 60%;}
+
+.subtitle{margin-left: 40px;
+    font-size: 36px;}
+
+.small-hr2{border:1px solid #38ABC8;
+    margin-top: -20px;
+    margin-left: 40px;
+    width: 90px;}
+
+.circle{border-radius: 50%;
+    margin-top: 50px;
+    background-color: #ffdda1;
+    width: 75px;
+    height: 75px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f9f9f9;
+    text-align: center;}
+
+.circle-text{border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #ffdda1;
+    width: 500px;}
+
+.line{height: 70px;
+    width: 3px;
+    background-color: #111111;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: none;}
+/*CORALS*/
+
+
+/* THREATS */
+.heading-threats{color: #02101e;
+    margin-top: 0px;
+    font-family: "Noto Sans Imperial Aramaic";
+    font-weight: bold;
+    text-shadow: 4px 4px 8px #011b39;
+    font-size: 45px;}
+
+.small-hr3{border:1px solid #376683;
+    margin-top: -20px;
+    margin-left: 0px;
+    width: 100px;}
+
+.threats{width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;}
+
+.threats-text{margin-left: auto;
+    margin-right: auto;
+    width: 90%;}
+/* THREATS */
+
+
+/*FOOTER*/
+.center-btn{text-align: center;}
+
+.footer{color: #f9f9f9;
+    background-color: #02101e;
+    font-size: 16px;
+    border: none;
+    border-color: #f9f9f9;
+    font-size: 25px;
+    margin-left: 40px;
+    margin-right: 40px;
+    cursor: pointer;}
+
+.footer:hover{color: #376683;}
+
+.footer-btn{color: #f9f9f9;
+    border: none;
+    background-color: #02101e;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;}
+
+.instagram:hover {color: #dd2a7b;}
+.email:hover {color: #db644a;}
+.facebook:hover {color: #3b5998;}
+.twitter:hover {color: #00acee;}
+/*FOOTER*/
